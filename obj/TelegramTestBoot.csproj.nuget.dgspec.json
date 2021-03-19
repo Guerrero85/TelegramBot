@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hamza/Documentos/C#/TelegramTestBoot/TelegramTestBoot.csproj": {}
+  },
+  "projects": {
+    "/home/hamza/Documentos/C#/TelegramTestBoot/TelegramTestBoot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hamza/Documentos/C#/TelegramTestBoot/TelegramTestBoot.csproj",
+        "projectName": "TelegramTestBoot",
+        "projectPath": "/home/hamza/Documentos/C#/TelegramTestBoot/TelegramTestBoot.csproj",
+        "packagesPath": "/home/hamza/.nuget/packages/",
+        "outputPath": "/home/hamza/Documentos/C#/TelegramTestBoot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hamza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[15.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
